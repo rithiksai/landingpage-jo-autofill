@@ -24,11 +24,13 @@ app.post('/send-confirmation', async (req, res) => {
 
   try {
     await resend.emails.send({
-      from: 'ApplyPilot <onboarding@resend.dev>',
+      from: 'ApplyPilot <no-reply@applypilot.com>',
       to: email,
       subject: 'You’re on the ApplyPilot waitlist 🎉',
       html: `<p>Thanks for joining the waitlist! We'll notify you when we’re ready for liftoff 🚀</p>`,
     });
+
+    console.log("Sending email to : ", email);
 
     res.json({ success: true });
   } catch (err) {
