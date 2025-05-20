@@ -23,7 +23,7 @@ const Waitlist = () => {
       setEmail('');
     }
 
-    await fetch('http://localhost:5000/send-confirmation', {
+    await fetch('https://landingpage-jo-autofill.onrender.com/send-confirmation', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ email }),
