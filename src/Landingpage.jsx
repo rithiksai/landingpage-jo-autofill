@@ -5,10 +5,11 @@ import Waitlist from './waitlist';
 
 const Landingpage = () => {
 
-    return(<div className='min-h-screen w-full bg-red-300'>
+    return(<div className='grid min-h-screen w-full'>
         <Heading></Heading>
-        <Points></Points>
         <Waitlist></Waitlist>
+        <Points></Points>
+        
     </div>);
 }
 

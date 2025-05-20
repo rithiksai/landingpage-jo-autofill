@@ -1,8 +1,8 @@
 import React from 'react'
 
-const home1 = () => {
+const home1 = ({className}) => {
 
-    return(<div className="min-h-screen flex flex-col items-center justify-center bg-white px-4 text-center">
+    return( <div className={`flex flex-col items-center justify-center bg-white px-4 pt-10 text-center ${className}`}>
                 <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
                     Apply to Jobs 10x Faster with ApplyPilot
                 </h1>
