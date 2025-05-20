@@ -5,7 +5,7 @@ import Waitlist from './waitlist';
 
 const Landingpage = () => {
 
-    return(<div className='grid min-h-screen w-full'>
+    return(<div className='grid min-h-screen w-full px-6 py-12 bg-gradient-to-b from-white via-blue-200 to-white'>
         <Heading></Heading>
         <Waitlist></Waitlist>
         <Points></Points>

@@ -16,7 +16,7 @@ const Waitlist = () => {
     };
 
 
-    return(<div className="bg-white py-12 px-4">
+    return(<div className="bg-transparent py-12 px-4">
                 <div className="max-w-md mx-auto text-center">
                     <h3 className="text-xl font-medium text-gray-800 mb-4">
                     Be the first to try ApplyPilot. Join the waitlist:
