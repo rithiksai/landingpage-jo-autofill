@@ -25,5 +25,5 @@ This repository contains the landing page, waitlist system, and backend setup us
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/your-username/applypilot.git
+git clone https://github.com/rithiksai/landingpage-jo-autofill.git
 cd applypilot
